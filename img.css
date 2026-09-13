@@ -1,0 +1,9 @@
+.same-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+
+.navbar-purple {
+    background-color: #e9d5ff;
+}
