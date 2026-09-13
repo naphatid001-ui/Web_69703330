@@ -1,0 +1,81 @@
+/* Navbar */
+.navbar-purple {
+    background: linear-gradient(90deg, #6a11cb, #8e44ad);
+    padding: 12px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Logo */
+  .navbar-purple .navbar-brand {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Menu */
+  .navbar-purple .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    margin: 0 4px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    transition: 0.3s;
+  }
+  
+  /* Hover */
+  .navbar-purple .nav-link:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  /* Active */
+  .navbar-purple .nav-link.active {
+    background-color: white;
+    color: #6a11cb;
+  }
+  
+  /* Dropdown */
+  .navbar-purple .dropdown-menu {
+    border: none;
+    border-radius: 12px;
+    margin-top: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .navbar-purple .dropdown-item {
+    padding: 10px 16px;
+    border-radius: 8px;
+  }
+  
+  .navbar-purple .dropdown-item:hover {
+    background-color: #f1e6ff;
+    color: #6a11cb;
+  }
+  
+  /* Search */
+  .navbar-purple .form-control {
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+  }
+  
+  .navbar-purple .btn-light {
+    border-radius: 20px;
+    padding: 8px 18px;
+    color: #6a11cb;
+    font-weight: 600;
+  }
+  
+  .navbar-purple .btn-light:hover {
+    background-color: #f1e6ff;
+  }
+  
+  /* Mobile */
+  .navbar-purple .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-purple .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+  

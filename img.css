@@ -7,3 +7,20 @@
 .navbar-purple {
     background-color: #e9d5ff;
 }
+
+.product-title {
+  color: #2c3e50;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.product-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #3498db, #8e44ad);
+  border-radius: 10px;
+  margin: 10px auto 0;
+}
